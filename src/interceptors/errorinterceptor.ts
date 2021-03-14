@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs/Rx';
 import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest, HTTP_INTERCEPTORS } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { Loading } from 'ionic-angular';
+
 
 @Injectable()
 export class ErrorInterceptor implements HttpInterceptor {
